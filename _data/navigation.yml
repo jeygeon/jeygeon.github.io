@@ -2,11 +2,18 @@
 main:
   - title: "Quick-Start Guide"
     url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
-  # - title: "About"
-  #   url: https://mmistakes.github.io/minimal-mistakes/about/
-  # - title: "Sample Posts"
-  #   url: /year-archive/
-  # - title: "Sample Collections"
-  #   url: /collection-archive/
-  # - title: "Sitemap"
-  #   url: /sitemap/
+sidebar-category:
+  - title: "Language"
+    children:
+      - title: "Java"
+        url: "categories/java"
+        category: "java"
+      - title: "React"
+        url: "categories/react"
+        category: "react"
+
+  - title: "Network"
+    children:
+      - title: "Load Balancer"
+        url: "categories/load-balancer"
+        category: "lb"
