@@ -1,8 +1,9 @@
 ---
-layout: single
 title: "[minimal-mistake] 폰트 파일 적용하기"
-categories:
-  - blog
+toc: true
+toc_sticky: true
+date: 2024-12-26
+categories: blog
 ---
 
 minimal-mistake 테마의 블로그에서 폰트 파일을 적용하는 방법입니다.
@@ -10,7 +11,7 @@ minimal-mistake 테마의 블로그에서 폰트 파일을 적용하는 방법�
 일단 적용하려는 폰트의 파일을 `assets/fonts/`에 추가한다. (fonts 디렉토리가 없으면 만들면 된다.)
 
 <p style="text-align: center;">
-  <img src="./image/fontapply.png" alt="패키지">
+  <img src="/assets/images/fontapply.png" alt="패키지">
 </p>
 
 그리고 `assets/css/main.scss` 에 아래 코드를 추가하면 끝이다.
