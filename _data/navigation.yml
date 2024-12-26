@@ -17,3 +17,9 @@ sidebar-category:
       - title: "Load Balancer"
         url: "categories/load-balancer"
         category: "lb"
+
+  - title: "ETC"
+    children:
+      - title: "Blog"
+        url: "categories/blog"
+        category: "blog"
