@@ -7,3 +7,23 @@ search: false
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
+
+@font-face {
+    font-family: 'text';
+    src: url('/assets/fonts/SUIT-Variable.ttf') format('truetype');
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'code';
+    src: url('/assets/fonts/JetBrainsMono-Light.ttf') format('truetype');
+    font-style: normal;
+}
+
+body {
+    font-family: 'text', sans-serif;
+}
+
+code {
+    font-family: 'code', sans-serif;
+}

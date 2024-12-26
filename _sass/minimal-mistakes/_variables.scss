@@ -6,7 +6,7 @@
    Typography
    ========================================================================== */
 
-$doc-font-size: 16px !default;
+$doc-font-size: 12px !default;
 $doc-font-size-medium: $doc-font-size * 1.125 !default;
 $doc-font-size-large: $doc-font-size * 1.25 !default;
 $doc-font-size-x-large: $doc-font-size * 1.375 !default;
@@ -151,7 +151,7 @@ $small: 600px !default;
 $medium: 768px !default;
 $medium-wide: 900px !default;
 $large: 1024px !default;
-$x-large: 1280px !default;
+$x-large: 1600px !default;
 $max-width: $x-large !default;
 
 /*
@@ -160,7 +160,7 @@ $max-width: $x-large !default;
 
 $right-sidebar-width-narrow: 200px !default; // 200px
 $right-sidebar-width: 300px !default; // 300px
-$right-sidebar-width-wide: 250px !default; // 400px
+$right-sidebar-width-wide: 500px !default; // 400px
 
 /*
    Other
