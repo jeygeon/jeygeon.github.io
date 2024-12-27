@@ -4,6 +4,8 @@ toc: true
 toc_sticky: true
 date: 2024-12-26
 categories: blog
+sidebar:
+  nav: "docs"
 ---
 
 minimal-mistake 테마의 블로그에서 폰트 파일을 적용하는 방법입니다.

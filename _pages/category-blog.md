@@ -1,12 +1,10 @@
 ---
 title: "Blog"
 layout: archive
-permalink: /blog
+permalink: categories/blog
 author_profile: true
 sidebar:
-  nav: "sidebar-category"
+  nav: "docs"
 ---
 
-
-{% assign posts = site.categories.categories %}
-{% for post in posts %} {% include archive-single.html type=page.entries_layout %} {% endfor %}
+{% assign posts = site.categories['blog']%} {% for post in posts %} {% include archive-single.html type=page.entries_layout %} {% endfor %}
