@@ -1,5 +1,5 @@
 ---
-title: "[minimal-mistake] 폰트 파일 적용하기"
+title: "[minimal-mistakes] 폰트 파일 적용하기"
 toc: true
 toc_sticky: true
 date: 2024-12-26

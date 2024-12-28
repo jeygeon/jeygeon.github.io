@@ -1,5 +1,5 @@
 ---
-title: "[minimal-mistake] 사이드 바 만들기"
+title: "[minimal-mistakes] 사이드 바 만들기"
 toc: true
 toc_sticky: true
 date: 2024-12-27
