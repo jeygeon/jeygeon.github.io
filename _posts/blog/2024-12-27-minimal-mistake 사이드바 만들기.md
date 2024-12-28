@@ -4,6 +4,7 @@ toc: true
 toc_sticky: true
 date: 2024-12-27
 categories: blog
+comments: true
 ---
 
 minimal-mistake 테마의 블로그에서 아래 사진과 같이 사이드 바를 만드는 것을 해 볼 것이다.
