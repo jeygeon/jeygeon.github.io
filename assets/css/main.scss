@@ -27,3 +27,9 @@ body {
 code {
     font-family: 'code', sans-serif;
 }
+
+p:has(img) {
+    width: 600px;
+    margin: 0 auto !important;
+  }
+  

@@ -14,6 +14,10 @@ docs:
         category: "react"
 
   - title: "Network"
+    children:
+      - title: "Load Balancer"
+        url: "categories/lb"
+        category: "lb"
 
   - title: "ETC"
     children:
