@@ -10,7 +10,7 @@ comments: true
 ## 1. 로드 밸런서란?
 <p>
 	<img src = "/assets/images/network/lb/LoadBalancer(1).png">
- </p>
+</p>
 <br/>
 로드 밸런싱이란 서버에 가해지는 부하들을 분산해주는 기술을 말한다. 한 대의 서버가 있다고 가정했을 때 서비스가 점점 커지면 한 대의 서버로는 정상적인 운영이 힘들 수 있다.
 
