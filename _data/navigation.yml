@@ -13,11 +13,26 @@ docs:
         url: "categories/react"
         category: "react"
 
-  - title: "Network"
+  - title: "Computer Science"
     children:
-      - title: "Load Balancer"
-        url: "categories/lb"
-        category: "lb"
+      - title: "Network"
+        url: "categories/network"
+        category: "network"
+      - title: "Operating System"
+        url: "categories/os"
+        category: "os"
+      - title: "Data Structure"
+        url: "categories/data-structure"
+        category: "data-structure"
+      - title: "Algorithm"
+        url: "categories/algorithm"
+        category: "algorithm"
+
+  - title: "Database"
+    children:
+      - title: "Database"
+        url: "categories/db"
+        category: "db"
 
   - title: "ETC"
     children:
