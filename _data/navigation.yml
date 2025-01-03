@@ -9,6 +9,7 @@ docs:
       - title: "Java"
         url: "categories/java"
         category: "java"
+
       - title: "React"
         url: "categories/react"
         category: "react"
@@ -18,12 +19,15 @@ docs:
       - title: "Network"
         url: "categories/network"
         category: "network"
+
       - title: "Operating System"
         url: "categories/os"
         category: "os"
+
       - title: "Data Structure"
         url: "categories/data-structure"
         category: "data-structure"
+
       - title: "Algorithm"
         url: "categories/algorithm"
         category: "algorithm"
