@@ -46,13 +46,13 @@ public class SecurityConfig {
 이렇게 설정 하고 어플리케이션을 실행하게 되면 아래와 같이 기본적으로 Spring Security에서 제공하는 로그인 페이지에서 우리가 흔히 알고 있는 기억하기 체크박스가 생성된 것을 볼 수 있다.
 
 <p style="width:100%; text-align: center">
-	<img src="/assets/images/tech-stack/spring-security/remember-me/rememberme1.png">
+	<img src="/assets/images/tech/spring-security/remember-me/rememberme1.png">
 </p>
 <br/>
 이 상태에서 위의 설정대로 user / 1234 로 로그인을 해서 인증에 성공할 경우 remember이라는 이름으로 쿠키가 생성이 된 것을 볼 수 있다.
 
 <p style="width:100%">
-	<img src="/assets/images/tech-stack/spring-security/remember-me/rememberme2.png">
+	<img src="/assets/images/tech/spring-security/remember-me/rememberme2.png">
 </p>
 
 쿠키를 쓸때는 탈취같은 보안적인 요소도 빼놓을 수 없는데 Spring Security에서 쿠키는 암호화가 되어서 만들어진다.
@@ -70,7 +70,7 @@ public class SecurityConfig {
 그래서 위의 생성된 쿠키를 base64 복호화를 진행하면 아래와 같이 나오게 된다.
 
 <p style="width:100%">
-	<img src="/assets/images/tech-stack/spring-security/remember-me/rememberme3.png">
+	<img src="/assets/images/tech/spring-security/remember-me/rememberme3.png">
 </p>
 
 때문에 이 쿠키가 만약 탈취당하더라도 유출되는 정보는 크게 중요하지 않고 SHA256는 단방향이기 때문에 복호화도 불가능하다.

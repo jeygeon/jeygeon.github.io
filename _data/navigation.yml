@@ -14,11 +14,15 @@ docs:
         url: "categories/react"
         category: "react"
 
-  - title: "Tech Stack"
+  - title: "Tech"
     children:
       - title: "Spring Security"
         url: "categories/spring-security"
         category: "spring-security"
+
+      - title: "JPA"
+        url: "categories/jpa"
+        category: "jpa"
 
   - title: "Computer Science"
     children:

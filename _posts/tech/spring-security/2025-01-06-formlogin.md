@@ -71,5 +71,5 @@ public class SecurityConfig {
 말로는 설명이 어려워서 아래 예를 통해 쉽게 이해가 가능하다.
 
 <p style="width:100%">
-	<img src="/assets/images/tech-stack/spring-security/formlogin/defaultSuccessUrl.png">
+	<img src="/assets/images/tech/spring-security/formlogin/defaultSuccessUrl.png">
 </p>
