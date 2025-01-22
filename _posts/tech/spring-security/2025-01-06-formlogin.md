@@ -10,6 +10,7 @@ comments: true
 spring security 의존성을 추가한 뒤 기본적인 config 설정을 해보겠다.
 
 ### 📌 spring Security 의존성 추가
+
 ```groovy
 implementation 'org.springframework.boot:spring-boot-starter-security'
 ```
@@ -23,7 +24,9 @@ implementation 'org.springframework.boot:spring-boot-starter-security'
 그리고 기본적으로 로그인 페이지가 자동적으로 생성되어 렌더링되며, 해당 로그인 페이지에 로그인 할 수 있는 계정도 한개 자동으로 생성된다.
 
 ### 📌 formLogin 관련 설정
+
 아래는 formLogin관련 기본 config 설정들이다.
+
 ```java
 @Configuration
 @EnableWebSecurity
@@ -66,6 +69,7 @@ public class SecurityConfig {
 ```
 
 ### 📌 defaultSuccessUrl()
+
 위의 코드에서 `defaultSuccessUrl()` 설정에 대해서 부가적으로 설명을 더하자면 `String defaultSuccessUrl`, `boolean alwaysUse` 이렇게 두가지 매개변수를 받을 수 있다. 첫 번째 인자는 로그인을 성공했을 경우 타게 되는 URL이고, 두 번째 인자는 항상 해당 URL을 사용할 것이냐는 의미이다.
 
 말로는 설명이 어려워서 아래 예를 통해 쉽게 이해가 가능하다.
