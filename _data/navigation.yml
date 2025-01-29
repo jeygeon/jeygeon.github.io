@@ -4,6 +4,12 @@ main:
     url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
 
 docs:
+  - title: "WEB"
+    children:
+      - title: "Web"
+        url: "categories/web"
+        category: "web"
+
   - title: "Language"
     children:
       - title: "Java"
