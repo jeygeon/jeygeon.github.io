@@ -20,6 +20,10 @@ docs:
         url: "categories/react"
         category: "react"
 
+      - title: "Vue"
+        url: "categories/vue"
+        category: "vue"
+
   - title: "Tech"
     children:
       - title: "Spring Security"
