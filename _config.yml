@@ -200,7 +200,7 @@ markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 
 
 # Conversion
-markdown: kramdown
+markdown: kramdown # kramdown
 highlighter: rouge
 lsi: false
 excerpt_separator: "\n\n"
@@ -219,7 +219,7 @@ kramdown:
   enable_coderay: false
   syntax_highlighter_opts:
     block:
-      line_numbers: true    # 코드 블록에 줄 번호를 표시합니다.
+      line_numbers: false    # 코드 블록에 줄 번호를 표시합니다.
   block_html: true          # HTML 블록 태그를 허용합니다. 이를 true로 설정하면 마크다운 내에서 HTML 블록 level 요소를 사용할 수 있습니다.
 
 # Sass/SCSS
