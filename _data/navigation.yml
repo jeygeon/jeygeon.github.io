@@ -24,6 +24,10 @@ docs:
         url: "categories/vue"
         category: "vue"
 
+      - title: "Python"
+        url: "categories/python"
+        category: "python"
+
   - title: "Tech"
     children:
       - title: "Spring Security"
