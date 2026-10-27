@@ -16,28 +16,11 @@ docs:
         url: "categories/java"
         category: "java"
 
-      - title: "React"
-        url: "categories/react"
-        category: "react"
-
-      - title: "Vue"
-        url: "categories/vue"
-        category: "vue"
-
       - title: "Python"
         url: "categories/python"
         category: "python"
 
   - title: "Tech"
-    children:
-      - title: "Spring Security"
-        url: "categories/spring-security"
-        category: "spring-security"
-
-      - title: "JPA"
-        url: "categories/jpa"
-        category: "jpa"
-
   - title: "Computer Science"
     children:
       - title: "Network"
