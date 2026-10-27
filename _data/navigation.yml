@@ -21,23 +21,32 @@ docs:
         category: "python"
 
   - title: "Tech"
-  - title: "Computer Science"
     children:
-      - title: "Network"
-        url: "categories/network"
-        category: "network"
+      - title: "AI"
+        url: "categories/ai"
+        category: "ai"
 
-      - title: "Operating System"
-        url: "categories/os"
-        category: "os"
+      - title: "Data Science"
+        url: "categories/data-science"
+        category: "data-science"
 
-      - title: "Data Structure"
-        url: "categories/data-structure"
-        category: "data-structure"
+  # - title: "Computer Science"
+  #   children:
+  #     - title: "Network"
+  #       url: "categories/network"
+  #       category: "network"
 
-      - title: "Algorithm"
-        url: "categories/algorithm"
-        category: "algorithm"
+  #     - title: "Operating System"
+  #       url: "categories/os"
+  #       category: "os"
+
+  #     - title: "Data Structure"
+  #       url: "categories/data-structure"
+  #       category: "data-structure"
+
+  #     - title: "Algorithm"
+  #       url: "categories/algorithm"
+  #       category: "algorithm"
 
   - title: "Database"
     children:
